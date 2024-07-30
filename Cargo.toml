@@ -1,0 +1,13 @@
+[package]
+name = "rust_auth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# tokio for async
+tokio = {version = "1", features = ["full"]}
+# axum is the web framework
+axum = "0.6"
+
+[dev-dependencies]
+anyhow = "1"
